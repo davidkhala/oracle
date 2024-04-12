@@ -9,3 +9,5 @@ It compares one set of data to another and identifies data that is out-of-sync, 
 # Oracle GoldenGate Studio
 Oracle GoldenGate Studio enables you to **design and deploy** high-volume, real-time replication by automatically handling table and column mappings, **allowing drag and drop custom mappings**, generating best
 practice configurations from templates, and contains context sensitive help.
+
+# Oracle GoldenGate for Distributed Applications and Analytics (GG4DAA)
