@@ -15,6 +15,8 @@ It then pushes these files to the server, where a process converts the trail fil
 # tags
 - log-based CDC
 - logical replication
+- java
 # limitation
 - Don't support for data types like XML and BLOB
-- 
+- a minimum supplemental log should be enabled.
+- some performance issues if the table doesn’t have any primary key.
