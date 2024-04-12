@@ -1,4 +1,6 @@
 https://docs.oracle.com/en/middleware/goldengate/core/19.1/understanding/understanding-oracle-goldengate.pdf
+https://docs.oracle.com/en/middleware/goldengate/core/19.1/gghdb/using-oracle-goldengate-heterogeneous-databases.pdf
+
 # design
 Oracle GoldenGate creates trail files that contain the most recent changed data from the source database.
 
