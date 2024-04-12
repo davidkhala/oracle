@@ -11,7 +11,7 @@ It then pushes these files to the server, where a process converts the trail fil
   - Restrictions: It has no data type restrictions. There are no requirements for supplemental logging.
   - The need for performance tuning is also zero to none at the standby database.
 - Performance: there are no performance implications for tables without a unique index or primary key with Data Guard.
-- meet zero RTO.
+- worse to meet RTO than Goldengate
 # tags
 - log-based CDC
 - logical replication
