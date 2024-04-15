@@ -14,6 +14,8 @@ It then pushes these files to the server, where a process converts the trail fil
   - The need for performance tuning is also zero to none at the standby database.
 - Performance: there are no performance implications for tables without a unique index or primary key with Data Guard.
 - worse to meet RTO than Goldengate
+# Download
+https://www.oracle.com/middleware/technologies/goldengate-downloads.html
 # tags
 - log-based CDC
 - logical replication
