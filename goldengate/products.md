@@ -1,3 +1,8 @@
+# Oracle GoldenGate Free
+- release by [container](https://container-registry.oracle.com/ords/f?p=113:4:4880508221012:::4:P4_REPOSITORY,AI_REPOSITORY,AI_REPOSITORY_NAME,P4_REPOSITORY_NAME,P4_EULA_ID,P4_BUSINESS_AREA_ID:1743,1743,Oracle%20GoldenGate%20Free,Oracle%20GoldenGate%20Free,1,0&cs=3YeUI9hI4_GlogC3O2QhGtU2rL9EHnP88EmwUQKht6hOFn_lmeqL4RfeUvnBsOuXiwhHDYSisOjoPCVn_SelYpg) 
+  - from 23c
+
+
 # Oracle GoldenGate for Big Data
 - initial released in 2014
 

@@ -1,0 +1,12 @@
+services:
+  golden-gate:
+    container_name: golden-gate
+    image: container-registry.oracle.com/goldengate/goldengate-free:latest
+    ports:
+      - 80:80
+      - 443:443
+    environment:
+      - OGG_ADMIN=oggadmin # default: oggadmin
+      - OGG_ADMIN_PWD=password # optional. if not specified, it will be auto-generated
+      - OGG_DEPLOYMENT=Local #default: Local
+  
