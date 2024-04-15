@@ -12,6 +12,8 @@ A patent-pending technology that operates against live databases to selectively 
 It compares one set of data to another and identifies data that is out-of-sync, and allows you to repair any data that is found out-of-sync
 - In case of source log is out-of-sync with source data
 
+latest release: [12.2.1.4](https://docs.oracle.com/en/middleware/goldengate/veridata/12.2.1.4/index.html)
+
 # Oracle GoldenGate Studio
 Oracle GoldenGate Studio enables you to **design and deploy** high-volume, real-time replication by automatically handling table and column mappings, **allowing drag and drop custom mappings**, generating best
 practice configurations from templates, and contains context sensitive help.
