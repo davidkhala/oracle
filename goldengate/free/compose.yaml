@@ -1,3 +1,4 @@
+name: golden-gate
 services:
   golden-gate:
     container_name: golden-gate
@@ -7,6 +8,5 @@ services:
       - 443:443
     environment:
       - OGG_ADMIN=oggadmin # default: oggadmin
-      - OGG_ADMIN_PWD=password # optional. if not specified, it will be auto-generated
+      - OGG_ADMIN_PWD=P@ssw0rd # optional. if not specified, it will be auto-generated
       - OGG_DEPLOYMENT=Local #default: Local
-  

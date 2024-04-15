@@ -2,6 +2,10 @@
 admin username: `oggadmin`
 
 # admin password
+assigned password contains 
+- at least one lowercase, one uppercase, one digit, and one special 
+- password length 8 - 30
+
 random generated password can be found first 3 log lines
 - `docker logs golden-gate | head -3`
 
