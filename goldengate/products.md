@@ -7,10 +7,7 @@
 - initial released in 2014
 
 # Oracle GoldenGate Veridata
-A patent-pending technology that operates against live databases to selectively compare datasets at very high speeds without interrupting ongoing business processes and then fix any out-of-sync data.
-
-It compares one set of data to another and identifies data that is out-of-sync, and allows you to repair any data that is found out-of-sync
-- In case of source log is out-of-sync with source data
+[wiki](./products/veridata/README.md)
 
 latest release: [12.2.1.4](https://docs.oracle.com/en/middleware/goldengate/veridata/12.2.1.4/index.html)
 - [release note](https://docs.oracle.com/en//middleware/goldengate/veridata/12.2.1.4/gvdrn/oracle-goldengate-veridata-release-notes.pdf): December 2023
