@@ -19,5 +19,5 @@ a microservices architecture that enables REST services as part of the Oracle Go
 - Support system managed database sharding to deliver fine-grained, multi-master replication where all shards are writable, and each shard can be partially replicated to other shards within a shardgroup.
 - Coordination with other systems and services in an Oracle Database environment.??
 – Custom embedding of Oracle GoldenGate into applications by using API endpoint
-- Only supports the Oracle database for an end-to-end MA-only topology.
+- **Connect Oracle only**: Only supports the Oracle database for an end-to-end MA-only topology.
 
