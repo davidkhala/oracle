@@ -1,5 +1,6 @@
 # Classic Architecture
 - the main product installation method before 12c (12.3.0.1) release.
+- **Deprecated**: From Oracle GoldenGate 21c onward, Oracle GoldenGate Classic Architecture for Oracle Database has been deprecated and may be desupported and unavailable in future releases.
 ## Use case
 - A static extraction of data records from one database and the loading of those records to another database.
 - **heterogeneous**: Capture from heterogeneous database sources and replication to heterogeneous database or a file
