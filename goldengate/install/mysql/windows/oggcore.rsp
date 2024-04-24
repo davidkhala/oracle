@@ -1,0 +1,61 @@
+
+######################################################################
+## Copyright(c) Oracle Corporation 2016, 2020. All rights reserved. ##
+##                                                                  ##
+## Specify values for the variables listed below to customize       ##
+## your installation.                                               ##
+##                                                                  ##
+## Each variable is associated with a comment. The comment          ##
+## can help to populate the variables with the appropriate          ##
+## values.                                                          ##
+##                                                                  ##
+## IMPORTANT NOTE: This file should be secured to have read         ##
+## permission only by the Oracle user or an administrator who       ##
+## owns this installation to protect any sensitive input values.    ##
+##                                                                  ##
+######################################################################
+
+#-------------------------------------------------------------------------------
+# Do not change the following system generated value.
+#-------------------------------------------------------------------------------
+oracle.install.responseFileVersion=/oracle/install/rspfmt_ogginstall_response_schema_v21_1_0
+
+
+################################################################################
+##                                                                            ##
+## Oracle GoldenGate installation option and details                          ##
+##                                                                            ##
+################################################################################
+
+#-------------------------------------------------------------------------------
+# Specify the installation option.
+# Specify MYSQL for installing Oracle GoldenGate for MySQL
+#-------------------------------------------------------------------------------
+INSTALL_OPTION=MySQL
+
+#-------------------------------------------------------------------------------
+# Specify a location to install Oracle GoldenGate
+#-------------------------------------------------------------------------------
+SOFTWARE_LOCATION=C:\goldengate\mysql
+
+
+################################################################################
+##                                                                            ##
+## Specify details to Create inventory for Oracle installs                    ##
+## Required only for the first Oracle product install on a system.            ##
+##                                                                            ##
+################################################################################
+
+#-------------------------------------------------------------------------------
+# Specify the location which holds the install inventory files.
+# This is an optional parameter if installing on
+# Windows based Operating System.
+#-------------------------------------------------------------------------------
+INVENTORY_LOCATION=C:\Program Files\Oracle\Inventory
+
+#-------------------------------------------------------------------------------
+# Unix group to be set for the inventory directory.
+# This parameter is not applicable if installing on
+# Windows based Operating System.
+#-------------------------------------------------------------------------------
+UNIX_GROUP_NAME=
