@@ -1,10 +1,11 @@
 # Using Oracle GoldenGate for MySQL
 
 ## Connection Credential
-- Credential Domain: optional
-- Database Server: db domain/ip endpoint
-- Database Name: `mysql`
-- User ID: `root`
+Managed in Menu-> **Configuration** -> Tab **Database**
+- `Credential Domain`: optional
+- `Database Server`: db domain/ip endpoint
+- `Database Name`: **mandatory** `mysql`
+- `User ID`: `root`
 
 
 ## limitation
