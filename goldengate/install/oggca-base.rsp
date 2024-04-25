@@ -104,8 +104,9 @@ PORT_RCVRSRVR=9003
 # Specify true if Performance Metrics server will be enabled, false otherwise.
 #-------------------------------------------------------------------------------
 METRICS_SERVER_ENABLED=false
-
-
+PORT_PMSRVR=9004 # Workaround for goldengate bug
+UDP_PORT_PMSRVR=9005 # Workaround for goldengate bug
+PMSRVR_DATASTORE_TYPE=BDB # Workaround for goldengate bug
 ###############################################################################
 # #
 # SECTION J - REPLICATION OPTIONS #
