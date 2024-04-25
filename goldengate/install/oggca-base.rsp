@@ -1,0 +1,118 @@
+oracle.install.responseFileVersion=/oracle/install/rspfmt_ogginstall_response_schema_v21_1_0
+
+CONFIGURATION_OPTION=ADD
+DEPLOYMENT_NAME=ogg21c
+
+#
+#-------------------------------------------------------------------------------
+# Specify the administrator account username.
+#-------------------------------------------------------------------------------
+ADMINISTRATOR_USER=oggadmin
+
+
+
+PORT_SERVICEMANAGER=9000
+#
+#-------------------------------------------------------------------------------
+# Specify if SSL / TLS is or will be enabled for the deployment.
+# Specify true if SSL / TLS is or will be enabled, false otherwise.
+#-------------------------------------------------------------------------------
+SECURITY_ENABLED=false
+#
+#-------------------------------------------------------------------------------
+# This option is only needed when CONFIGURATION_OPTION is ADD
+#
+# Specify if a new Service Manager should be created.
+# Specify true if a new Service Manager should be created, false otherwise.
+#-------------------------------------------------------------------------------
+CREATE_NEW_SERVICEMANAGER=true
+#
+#------------------------------------------------------------------------------
+# This option is only needed when CONFIGURATION_OPTION is ADD
+# This option does not apply to Windows platform
+#
+# Specify if Service Manager should be registered as a service/daemon. This
+# option is mutually exclusive with the 'INTEGRATE_SERVICEMANAGER_WITH_XAG' option.
+# Specify true if Service Manager should be registered as a service, false otherwise.
+#-------------------------------------------------------------------------------
+REGISTER_SERVICEMANAGER_AS_A_SERVICE=true
+#
+#-------------------------------------------------------------------------------
+# This option is only needed when CONFIGURATION_OPTION is ADD
+#
+# Specify if Service Manager should be integrated with XAG. This option is
+# mutually exclusive with the 'REGISTER_SERVICEMANAGER_AS_A_SERVICE' option.
+# Specify true if Service Manager should be integrated with XAG, false otherwise
+#-------------------------------------------------------------------------------
+INTEGRATE_SERVICEMANAGER_WITH_XAG=false
+#
+#-------------------------------------------------------------------------------
+# This option is only needed when CONFIGURATION_OPTION is ADD
+#
+# If using an existing Service Manager, specify if it is integrated with XAG.
+# Specify true if the existing Service Manager is integrated with XAG, false otherwise.
+#-------------------------------------------------------------------------------
+EXISTING_SERVICEMANAGER_IS_XAG_ENABLED=false
+
+
+###############################################################################
+# #
+# SECTION H - SHARDING #
+# #
+###############################################################################
+#
+#-------------------------------------------------------------------------------
+# Specify if Sharding will be enabled for this deployment.
+# Specify true if Sharding will be enabled for this deployment, false otherwise.
+#-------------------------------------------------------------------------------
+SHARDING_ENABLED=false
+#
+#-------------------------------------------------------------------------------
+# This option is only needed when Sharding will be enabled.
+# Specify the Sharding user.
+#-------------------------------------------------------------------------------
+SHARDING_USER=
+###############################################################################
+# #
+# SECTION I - SERVICES #
+# #
+###############################################################################
+#
+#-------------------------------------------------------------------------------
+# Specify the port for Administration Server.
+#-------------------------------------------------------------------------------
+PORT_ADMINSRVR=9001
+#
+#-------------------------------------------------------------------------------
+# Specify the port for Distribution Server.
+#-------------------------------------------------------------------------------
+PORT_DISTSRVR=9002
+#
+#-------------------------------------------------------------------------------
+# If security is disabled, specify if this non-secure deployment will be used
+# to send trail data to a secure deployment.
+#-------------------------------------------------------------------------------
+NON_SECURE_DISTSRVR_CONNECTS_TO_SECURE_RCVRSRVR=false
+#
+#-------------------------------------------------------------------------------
+# Specify the port for Receiver Server.
+#-------------------------------------------------------------------------------
+PORT_RCVRSRVR=9003
+#
+#-------------------------------------------------------------------------------
+# Specify if Performance Metrics server will be enabled.
+# Specify true if Performance Metrics server will be enabled, false otherwise.
+#-------------------------------------------------------------------------------
+METRICS_SERVER_ENABLED=false
+
+
+###############################################################################
+# #
+# SECTION J - REPLICATION OPTIONS #
+# #
+###############################################################################
+#
+#-------------------------------------------------------------------------------
+# Specify the value for the GoldenGate schema.
+#-------------------------------------------------------------------------------
+OGG_SCHEMA=ggadmin
