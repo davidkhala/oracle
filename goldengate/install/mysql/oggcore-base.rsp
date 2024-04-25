@@ -1,0 +1,3 @@
+oracle.install.responseFileVersion=/oracle/install/rspfmt_ogginstall_response_schema_v21_1_0
+
+INSTALL_OPTION=MySQL
