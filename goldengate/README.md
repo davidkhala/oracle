@@ -5,6 +5,9 @@ https://docs.oracle.com/en/middleware/goldengate/core/19.1/gghdb/using-oracle-go
 Oracle GoldenGate creates trail files that contain the most recent changed data from the source database.
 
 It then pushes these files to the server, where a process converts the trail file into standard SQL to be applied to the target database.
+
+It is not designed to 
+- Archive data: CDC, replication means copy, not move. It will be hard to avoid housekeep operation not to be sync.
 ## Compared to Oracle DB Data Guard
 - DG simply maintains an exact **physical** replica of the production copy remotely. Thus it has to be **homogenous** and only between oracle to oracle
 - Only one-way data replication
