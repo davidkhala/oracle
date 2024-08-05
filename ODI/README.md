@@ -1,4 +1,6 @@
 # Data integrator(ODI): The classic
+**Oracle Data Integrator** is a tool that you can use, either on-premises or in Oracle Cloud Infrastructure using a marketplace image.
+- Consider using this tool if you want to support **ongoing data migration**.
 
 # Edition and License
 - https://einstein.oracle.com/q/odi-web-edition-vs-odi-regular-edition-5625
